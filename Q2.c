@@ -1,3 +1,4 @@
+//REVERSES THE STRING
 #include<stdio.h>
 #include<string.h>
 void reversestring(char str[],int size){
