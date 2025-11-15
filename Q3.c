@@ -10,7 +10,6 @@ int removedup(int num[], int Size) {
     }
     return k;
 }
-
 int main() {
     int n, i;
     printf("Enter number of elements in array\n");
@@ -21,7 +20,6 @@ int main() {
         scanf("%d", &arr[i]);
     }
     int k = removedup(arr, n);
-
     printf("Total no of uniqu elements = %d\n", k);
     printf("Array after removing duplicates: ");
     for (i = 0;i < k;i++) {
