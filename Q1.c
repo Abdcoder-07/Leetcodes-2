@@ -1,5 +1,5 @@
+//MOVES ALL ZEROS TO END
 #include <stdio.h>
-
 int main() {
     int n, i,index=0;
     printf("Enter number of elements in array\n");
