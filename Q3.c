@@ -1,3 +1,4 @@
+//REMOVES DUPLICATES FROM ARRAY AND PRINTS UNIQUE ELEMENTS ONLY
 #include <stdio.h>
 int removedup(int num[], int Size) {
     if (Size == 0) 
