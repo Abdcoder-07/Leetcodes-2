@@ -1,8 +1,6 @@
 //REMOVES DUPLICATES FROM ARRAY AND PRINTS UNIQUE ELEMENTS ONLY
 #include <stdio.h>
 int removedup(int num[], int Size) {
-    if (Size == 0) 
-        return 0;
     int k = 1;
     for (int i = 1; i < Size; i++) {
         if (num[i] != num[i - 1]) {
